@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="calc.css" rel="stylesheet" />
+  <script src="calc.js"></script>
+</head>
+<body>
+  <section class="calc">
+    <div class="display__wrap">
+      <input type="text" id="answer" class="calc__display" disabled>
+    </div>
+    <div class="calc__buttons">  
+      <button onclick="calculate('+');" class="calc__button calc__button--operator">+</button>
+      <button onclick="calculate('-');" class="calc__button calc__button--operator">-</button>
+      <button onclick="calculate('*');" class="calc__button calc__button--operator">&times;</button>
+      <button onclick="calculate('/');" class="calc__button calc__button--operator">/</button>
+      <button onclick="calculate(7);" class="calc__button">7</button>
+      <button onclick="calculate(8);" class="calc__button">8</button>
+      <button onclick="calculate(9);" class="calc__button">9</button>
+      <button onclick="calculate(4);" class="calc__button">4</button>
+      <button onclick="calculate(5);" class="calc__button">5</button>
+      <button onclick="calculate(6);" class="calc__button">6</button>
+      <button onclick="calculate(1);" class="calc__button">1</button>
+      <button onclick="calculate(2);" class="calc__button">2</button>
+      <button onclick="calculate(3);" class="calc__button">3</button>
+      <button onclick="calculate(0);" class="calc__button">0</button>
+      <button onclick="calculate('.');" class="calc__button">.</button>
+      <button onclick="calculate('C');" class="calc__button">C</button>
+      <button onclick="calculate('=');" class="calc__button calc__button--enter">=</button>
+    </div>
+  </section>
+</body>
+</html>
